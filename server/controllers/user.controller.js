@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt')
 
 const User = require('../models/user.model.js')
 
-// create user
+// create user 
 
 exports.createUser = async (req,res) =>{
   const {name,email,password,role} = req.body 
